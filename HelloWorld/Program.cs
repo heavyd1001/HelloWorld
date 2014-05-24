@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace HelloWorld
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
+	class Program
+	{
+		static void Main(string[] args)
+		{
 			SayHello();
 			Console.ReadLine();
-        }
+		}
 		public static void SayHello()
 		{
 			Console.WriteLine("Hello World!");
 		}
-    }
+	}
 }
