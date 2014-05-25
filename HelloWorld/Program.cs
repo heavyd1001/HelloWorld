@@ -12,10 +12,16 @@ namespace HelloWorld
 		{
 			SayHello();
 			Console.ReadLine();
+			SayGoodbye();
+			Console.ReadLine();
 		}
 		public static void SayHello()
 		{
 			Console.WriteLine("Hello World!");
+		}
+		private static void SayGoodbye()
+		{
+			Console.WriteLine("Goodbye Cruel World");
 		}
 	}
 }
