@@ -17,5 +17,9 @@ namespace HelloWorld
 		{
 			Console.WriteLine("Hello World!");
 		}
+		private static void SayGoodbye()
+		{
+			Console.WriteLine("Goodbye Cruel World");
+		}
 	}
 }
