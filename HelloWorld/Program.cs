@@ -12,6 +12,8 @@ namespace HelloWorld
 		{
 			SayHello();
 			Console.ReadLine();
+			SayGoodbye();
+			Console.ReadLine();
 		}
 		public static void SayHello()
 		{
